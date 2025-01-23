@@ -154,6 +154,10 @@ a{
     font-size: 25px;
     font-weight: bold;
 }
+.a:hover{
+    background-color: #02ff89;
+    border: 20px solid #02ff89;
+}
 .our-stories{
     background-image: url('bg.png');
     background-size: cover; 
@@ -207,13 +211,14 @@ a{
     margin-left: -40px;
 }
 .last-sec{
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 70px;
     justify-content: space-between;
 
 }
 .footer{
-    background-color: rgb(160, 160, 247);
+    height: 400px;
+    background-color: rgb(191, 160, 247);
 }
 .hr{
     display: none;
@@ -231,10 +236,10 @@ i{
     } 
     */
     body{
-        padding: 20px;
+       width: 20%;
     }
     .hero{
-        max-width: 100%;
+        max-width: 20%;
     }
      .card{
         flex-direction: column;
