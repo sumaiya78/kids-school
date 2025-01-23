@@ -7,6 +7,9 @@
     font-variation-settings:
       "wdth" 200;
   }
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
@@ -212,10 +215,59 @@ a{
 .footer{
     background-color: rgb(160, 160, 247);
 }
-
-@media screen and (max-width: 576px) {
-    .stand{
-        grid-template-columns: repeat(1, 1fr);
-    }
+.hr{
+    display: none;
 }
- 
+.no{
+    display: none;
+}
+i{
+    display: none;
+}
+
+@media screen and (max-width: 578px) {
+    /* .stand{
+        grid-template-columns: repeat(1, 1fr);
+    } 
+    */
+    body{
+        padding: 20px;
+    }
+    .hero{
+        max-width: 100%;
+    }
+     .card{
+        flex-direction: column;
+     }
+     ul li{
+        display: none;
+     }
+     .padding{
+        padding: 0;
+     }
+     .display-flex{
+        flex-direction: column;
+     }
+     .none{
+        display: none;
+     }
+     .logo{
+        width: 60px;
+        height: 60px;
+     }
+     .hr{
+        border: 1px solid orange;
+     }
+     .p-flex{
+        display: inline;
+     }
+     .no{
+        margin-top: 0px;
+        margin-left: 100px;
+     }
+     .banner-content{
+        flex-direction: column;
+     }
+
+     
+}
